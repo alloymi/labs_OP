@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "proga__",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "proga1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proga1-Debug-ce29128ffb78fe99bb5c.json",
+					"name" : "proga1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proga2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proga2-Debug-99922c052304489f08d6.json",
+					"name" : "proga2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "proga3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-proga3-Debug-e03b50ac8e7e1b58f25c.json",
+					"name" : "proga3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/vikam/CLionProjects/sem2/proga++/cmake-build-debug",
+		"source" : "C:/Users/vikam/CLionProjects/sem2/proga++"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
