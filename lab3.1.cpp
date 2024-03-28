@@ -87,7 +87,7 @@ int main() {
                             massive result = arr1 + arr2;
                             cout << "Result of addition: ";
                             result.print_massive();
-                            cout << "\n----------------------\n";
+                            cout << "----------------------\n";
                             break;
                         }
 
@@ -120,7 +120,8 @@ int main() {
                         }
 
                         case 7: {
-                            cout << "Exiting Array Operations.\n";
+                            cout << "Exiting Array Operations.\n"
+                                    "----------------------\n";
                             break;
                         }
 
