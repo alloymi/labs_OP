@@ -1,6 +1,5 @@
 #include <iostream>
 #include "lab3_header.h"
-#include <algorithm>
 
 using namespace std;
 
@@ -15,7 +14,7 @@ void print_menu_massive() {
             "5. Compare two arrays (<)\n"
             "7. Exit Array Operations\n"
             "----------------------\n"
-            "Enter your choice: ";
+            "Enter your choice:";
 }
 
 void print_menu_matrix() {
@@ -32,7 +31,7 @@ void print_menu_matrix() {
             "9. Compare two matrices (<)\n"
             "10. Exit Matrix Operations\n"
             "----------------------\n"
-            "Enter your choice: ";
+            "Enter your choice:";
 }
 
 int main() {
@@ -47,23 +46,25 @@ int main() {
                 "2. Matrix Operations\n"
                 "3. Exit Program\n"
                 "----------------------\n"
-                "Choose an option: ";
+                "Choose an option:";
 
         cin >> main_choice;
+        cout << "\n----------------------\n";
 
         switch(main_choice) {
             case 1: {
                 do {
                     print_menu_massive();
                     cin >> array_choice;
+                    cout << "\n----------------------\n";
 
                     switch(array_choice) {
                         case 1:
                             cout << "First array\n"
                                     "----------------------\n"
-                                    "Enter length of the array: ";
+                                    "Enter length of the array:";
                             cin >> arr1.length;
-                            cout << "\nEnter elements of the array:\n";
+                            cout << "Enter elements of the array:";
                             for (int i = 0; i < arr1.length; i++) {
                                 cin >> arr1.mas[i];
                             }
@@ -72,9 +73,9 @@ int main() {
 
                             cout << "Second array\n"
                                     "----------------------\n"
-                                    "Enter length of the array: ";
+                                    "Enter length of the array:";
                             cin >> arr2.length;
-                            cout << "\nEnter elements of the array:\n";
+                            cout << "Enter elements of the array:";
                             for (int i = 0; i < arr2.length; i++) {
                                 cin >> arr2.mas[i];
                             }
@@ -86,10 +87,7 @@ int main() {
                             massive result = arr1 + arr2;
                             cout << "Result of addition: ";
                             result.print_massive();
-//                            for (int i = 0; i < min(result.length, min(arr1.length, arr2.length)); ++i) {
-//                                cout << result.mas[i] << " \n";
-//                            }
-                            cout << "----------------------\n";
+                            cout << "\n----------------------\n";
                             break;
                         }
 
@@ -122,7 +120,7 @@ int main() {
                         }
 
                         case 7: {
-                            cout << "Exiting Array Operations." << endl;
+                            cout << "Exiting Array Operations.\n";
                             break;
                         }
 
@@ -140,6 +138,7 @@ int main() {
                 do {
                     print_menu_matrix();
                     cin >> matrix_choice;
+                    cout << "----------------------\n";
 
                     switch(matrix_choice) {
                         case 1:
@@ -180,7 +179,7 @@ int main() {
                             cin >> number;
                             matrix result = mat1 * number;
                             cout << "Result of the first matrix multiplication by real number: \n";
-                            mat1.print_matrix();
+                            result.print_matrix();
                             break;
                         }
 

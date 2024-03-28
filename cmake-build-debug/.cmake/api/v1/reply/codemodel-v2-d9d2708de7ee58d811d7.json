@@ -67,8 +67,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/vikam/Documents/GitHub/labs_OP/cmake-build-debug",
-		"source" : "C:/Users/vikam/Documents/GitHub/labs_OP"
+		"build" : "C:/GitHub/labs_OP/cmake-build-debug",
+		"source" : "C:/GitHub/labs_OP"
 	},
 	"version" : 
 	{
