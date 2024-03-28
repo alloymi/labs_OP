@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/labs_OP.iml" filepath="$PROJECT_DIR$/.idea/labs_OP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/proga++.iml" filepath="$PROJECT_DIR$/.idea/proga++.iml" />
     </modules>
   </component>
 </project>

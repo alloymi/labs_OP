@@ -13,4 +13,7 @@ add_executable(labs_OP_2 lab2.1.cpp
 
 add_executable(labs_OP_3 lab3.1.cpp
         lab3.2.cpp
+        lab3_header.h
+        lab3_header.h
+        lab3.2.cpp
         lab3_header.h)

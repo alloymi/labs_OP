@@ -6,53 +6,48 @@
 using namespace std;
 
 //4
-
 class matrix {
-private:
-    int mat[3][3];
 
 public:
+    int mat[3][3];
+
     matrix();
 
-    Matrix3x3 operator*(const Matrix3x3& other) const;
-    Matrix3x3 operator*(int scalar) const;
-    Matrix3x3 operator+(const Matrix3x3& other) const;
-    Matrix3x3 operator-(const Matrix3x3& other) const;
-    bool operator==(const Matrix3x3& other) const;
-    bool operator!=(const Matrix3x3& other) const;
-    bool operator>(const Matrix3x3& other) const;
-    bool operator<(const Matrix3x3& other) const;
+    matrix operator * (const matrix &other) const;
+    matrix operator * (double real_num) const;
+
+    matrix operator + (const matrix &other) const;
+    matrix operator - (const matrix &other) const;
+
+    bool operator == (const matrix &other) const;
+    bool operator != (const matrix &other) const;
+
+    bool operator > (const matrix &other) const;
+    bool operator < (const matrix &other) const;
+
+    void print_matrix() const;
 
 };
 
-
-
-
 // 6
 class massive {
-private:
-//    int mas[100];
-//    int length;
 
 public:
+    int mas[100];
+    int length;
+
     massive();
 
     massive operator + (const massive &mas) const;
 
     bool operator == (const massive &mas) const;
-
     bool operator != (const massive &mas) const;
 
     bool operator > (const massive &mas) const;
-
     bool operator < (const massive &mas) const;
 
-    int mas[100];
-    int length;
+    void print_massive() const;
 
-//    int get_length() const;
-//    int get_elem(int i) const;
 };
-
 
 #endif //PROGA___LAB3_HEADER_H

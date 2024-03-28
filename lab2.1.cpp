@@ -58,7 +58,7 @@ int main() {
             case 7:
                 While = false;
                 cout << "----------------------\n";
-                std::cout << "Exiting program\n";
+                cout << "Exiting program\n";
                 break;
             default:
                 cout << "Invalid choice. Please enter a number between 1 and 6.\n";
