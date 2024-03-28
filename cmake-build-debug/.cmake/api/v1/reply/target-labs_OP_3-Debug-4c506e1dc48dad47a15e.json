@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "proga2.exe"
+			"path" : "labs_OP_3.exe"
 		},
 		{
-			"path" : "proga2.pdb"
+			"path" : "labs_OP_3.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -27,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 14,
 				"parent" : 0
 			}
 		]
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"id" : "proga2::@6890427a1f51a3e7e1df",
+	"id" : "labs_OP_3::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -77,8 +77,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "proga2",
-	"nameOnDisk" : "proga2.exe",
+	"name" : "labs_OP_3",
+	"nameOnDisk" : "labs_OP_3.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -107,18 +107,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lab2.1.cpp",
+			"path" : "lab3.1.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "lab2.2.cpp",
+			"path" : "lab3.2.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "lab2_header.h",
+			"path" : "lab3_header.h",
 			"sourceGroupIndex" : 1
 		}
 	],
