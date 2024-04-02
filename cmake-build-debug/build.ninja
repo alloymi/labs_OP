@@ -157,6 +157,45 @@ build labs_OP_3.exe: CXX_EXECUTABLE_LINKER__labs_OP_3_Debug CMakeFiles/labs_OP_3
   TARGET_IMPLIB = liblabs_OP_3.dll.a
   TARGET_PDB = labs_OP_3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target labs_OP_4
+
+
+#############################################
+# Order-only phony target for labs_OP_4
+
+build cmake_object_order_depends_target_labs_OP_4: phony || CMakeFiles/labs_OP_4.dir
+
+build CMakeFiles/labs_OP_4.dir/lab4.1.cpp.obj: CXX_COMPILER__labs_OP_4_unscanned_Debug C$:/Users/vikam/Documents/GitHub/labs_OP/lab4.1.cpp || cmake_object_order_depends_target_labs_OP_4
+  DEP_FILE = CMakeFiles\labs_OP_4.dir\lab4.1.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs_OP_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs_OP_4.dir
+
+build CMakeFiles/labs_OP_4.dir/lab4.2.cpp.obj: CXX_COMPILER__labs_OP_4_unscanned_Debug C$:/Users/vikam/Documents/GitHub/labs_OP/lab4.2.cpp || cmake_object_order_depends_target_labs_OP_4
+  DEP_FILE = CMakeFiles\labs_OP_4.dir\lab4.2.cpp.obj.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\labs_OP_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs_OP_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target labs_OP_4
+
+
+#############################################
+# Link the executable labs_OP_4.exe
+
+build labs_OP_4.exe: CXX_EXECUTABLE_LINKER__labs_OP_4_Debug CMakeFiles/labs_OP_4.dir/lab4.1.cpp.obj CMakeFiles/labs_OP_4.dir/lab4.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\labs_OP_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = labs_OP_4.exe
+  TARGET_IMPLIB = liblabs_OP_4.dll.a
+  TARGET_PDB = labs_OP_4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -189,6 +228,8 @@ build labs_OP_2: phony labs_OP_2.exe
 
 build labs_OP_3: phony labs_OP_3.exe
 
+build labs_OP_4: phony labs_OP_4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -197,7 +238,7 @@ build labs_OP_3: phony labs_OP_3.exe
 #############################################
 # Folder: C:/Users/vikam/Documents/GitHub/labs_OP/cmake-build-debug
 
-build all: phony labs_OP_1.exe labs_OP_2.exe labs_OP_3.exe
+build all: phony labs_OP_1.exe labs_OP_2.exe labs_OP_3.exe labs_OP_4.exe
 
 # =============================================================================
 # Built-in targets
