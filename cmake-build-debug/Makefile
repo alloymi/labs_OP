@@ -154,6 +154,19 @@ labs_OP_3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_3.dir\build.make CMakeFiles/labs_OP_3.dir/build
 .PHONY : labs_OP_3/fast
 
+#=============================================================================
+# Target rules for targets named labs_OP_4
+
+# Build rule for target.
+labs_OP_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 labs_OP_4
+.PHONY : labs_OP_4
+
+# fast build rule for target.
+labs_OP_4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/build
+.PHONY : labs_OP_4/fast
+
 lab1.1.obj: lab1.1.cpp.obj
 .PHONY : lab1.1.obj
 
@@ -298,6 +311,54 @@ lab3.2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_3.dir\build.make CMakeFiles/labs_OP_3.dir/lab3.2.cpp.s
 .PHONY : lab3.2.cpp.s
 
+lab4.1.obj: lab4.1.cpp.obj
+.PHONY : lab4.1.obj
+
+# target to build an object file
+lab4.1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.1.cpp.obj
+.PHONY : lab4.1.cpp.obj
+
+lab4.1.i: lab4.1.cpp.i
+.PHONY : lab4.1.i
+
+# target to preprocess a source file
+lab4.1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.1.cpp.i
+.PHONY : lab4.1.cpp.i
+
+lab4.1.s: lab4.1.cpp.s
+.PHONY : lab4.1.s
+
+# target to generate assembly for a file
+lab4.1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.1.cpp.s
+.PHONY : lab4.1.cpp.s
+
+lab4.2.obj: lab4.2.cpp.obj
+.PHONY : lab4.2.obj
+
+# target to build an object file
+lab4.2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.2.cpp.obj
+.PHONY : lab4.2.cpp.obj
+
+lab4.2.i: lab4.2.cpp.i
+.PHONY : lab4.2.i
+
+# target to preprocess a source file
+lab4.2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.2.cpp.i
+.PHONY : lab4.2.cpp.i
+
+lab4.2.s: lab4.2.cpp.s
+.PHONY : lab4.2.s
+
+# target to generate assembly for a file
+lab4.2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labs_OP_4.dir\build.make CMakeFiles/labs_OP_4.dir/lab4.2.cpp.s
+.PHONY : lab4.2.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -309,6 +370,7 @@ help:
 	@echo ... labs_OP_1
 	@echo ... labs_OP_2
 	@echo ... labs_OP_3
+	@echo ... labs_OP_4
 	@echo ... lab1.1.obj
 	@echo ... lab1.1.i
 	@echo ... lab1.1.s
@@ -327,6 +389,12 @@ help:
 	@echo ... lab3.2.obj
 	@echo ... lab3.2.i
 	@echo ... lab3.2.s
+	@echo ... lab4.1.obj
+	@echo ... lab4.1.i
+	@echo ... lab4.1.s
+	@echo ... lab4.2.obj
+	@echo ... lab4.2.i
+	@echo ... lab4.2.s
 .PHONY : help
 
 
